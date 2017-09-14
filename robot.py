@@ -1,6 +1,6 @@
 #Robot for web browsing based on Selenium
 #OUT: 	outfile.log, visits records
-#	  	outfile.pcap, traffic DNS generated, concurrently execute, eg: tcpdump -i eth0 udp port 53 -w outfile.cap 
+#	  	outfile.pcap, traffic DNS generated, concurrently execute, eg: tcpdump -i eth0 udp port 53 -w outfile.pcap 
 #INPUT:	list_of_websites, webs to visit
 #		PARAMETERS
 
@@ -91,32 +91,32 @@ for k in range(users_sessions):
             
             print 'Web visited:',web_to_visit,' time:' ,  j
             aux=datetime.datetime.now()
-            linea=ip;            
-            linea+=' '
-            linea+=str(k);
-            linea+=' '
-            linea+=SO;
-            linea+=' '
-            linea+=str(i);
-            linea+=' '
-            linea+=aux.strftime("%Y-%m-%d %H:%M");
-            linea+=' '
-            linea+=str(int(time.mktime(aux.timetuple())))
-            linea+=' '
-            linea+=str(round(aleat,2))
-            linea+=' '
-            linea+=str(nweb_to_visit)
-            linea+=' '
-            linea+=tipoweb_to_visit            
-            linea+=' '
-            linea+=web_to_visit   
-            linea+=' '
-            linea+=str(j)
-            linea+=' '
-            linea+=str(round(time_of_visit,2))
-            linea+='\n'
-            print linea
-            outfile.write(linea)
+            line=ip;            
+            line+=' '
+            line+=str(k);
+            line+=' '
+            line+=SO;
+            line+=' '
+            line+=str(i);
+            line+=' '
+            line+=aux.strftime("%Y-%m-%d %H:%M");
+            line+=' '
+            line+=str(int(time.mktime(aux.timetuple())))
+            line+=' '
+            line+=str(round(aleat,2))
+            line+=' '
+            line+=str(nweb_to_visit)
+            line+=' '
+            line+=tipoweb_to_visit            
+            line+=' '
+            line+=web_to_visit   
+            line+=' '
+            line+=str(j)
+            line+=' '
+            line+=str(round(time_of_visit,2))
+            line+='\n'
+            print line
+            outfile.write(line)
 
             time.sleep(time_of_visit)
             
