@@ -1,5 +1,5 @@
 # robotFWB v.2017
-# Robot for simulating web browsing
+# Robot for web browsing
 # Uses Selenium: http://www.seleniumhq.org/
 
 To execute -> execute.sh
