@@ -1,4 +1,4 @@
-#IP user browser visitNum date time UnixTime(UTC) random Nweb_to_visit typeWeb website revisitation visiting_time
+#IP user browser visi_tNum date time UnixTime(UTC) random Nweb_to_visit typeWeb website revisitation visiting_time
 192.168.246.132 0 F 0 2017-09-13 16:40 1505313637 0.87 160 1 http://www.google.com 0 8.67
 192.168.246.132 0 F 0 2017-09-13 16:40 1505313647 0.87 160 1 http://www.google.com 1 192.5
 192.168.246.132 0 F 0 2017-09-13 16:44 1505313841 0.87 160 1 http://www.google.com 2 191.12
