@@ -1,8 +1,9 @@
 #Robot for web browsing based on Selenium
+#To execute, execute.sh
 #OUT: 	outfile.log, visits records
-#	  	outfile.pcap, traffic DNS generated, concurrently execute, eg: tcpdump -i eth0 udp port 53 -w outfile.pcap 
-#INPUT:	list_of_websites, webs to visit
-#		PARAMETERS
+#	outfile.pcap, DNS traffic generated
+#INPUT:	list_of_websites, file with webs to visit
+#	Parameters in code
 
 import random
 import time
